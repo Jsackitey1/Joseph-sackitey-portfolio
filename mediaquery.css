@@ -8,13 +8,8 @@
     }
     #contact,
     #projects {
-      height: fit-content;
+    height: fit-content;
     }
-
-    .about-pic{
-        gap:2rem;
-    }
-
   }
   
   @media screen and (max-width: 1200px) {
@@ -40,7 +35,8 @@
       height: fit-content;
     }
     section {
-      margin: 0 5%;
+      margin: 20% 5%;
+      
     }
     .section__pic-container {
       width: 275px;
@@ -50,34 +46,17 @@
     .about-containers {
       margin-top: 0;
     }
-
+    .section_text_p2{
+      margin-left: 40%;
+    }
+    .profile_image{
+      place-items: center;
+    }
     .about-pic {
         display: none;
     
       }
   }
-  /* Base styles for larger screens */
-.section-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem 0;
-  }
-  
-  .section__pic-container {
-    flex: 0 0 auto;
-    width: 300px; /* Adjust as needed */
-    height: auto;
-    margin-right: 2rem;
-  }
-  
-  .text-container {
-    flex: 1 1 auto;
-    max-width: 600px;
-    margin-left: 2rem;
-  }
-  
-  /* Responsive styles for smaller screens */
   @media screen and (max-width: 768px) {
     .section-container {
       flex-direction: column;
@@ -86,19 +65,15 @@
     }
   
     .section__pic-container {
-      margin-right: 0;
-      margin-bottom: 1rem; /* Add margin below the image for spacing */
       width: 100%; /* Full width on small screens */
       height: auto; /* Maintain aspect ratio */
+      margin-right: 0;
+      margin-bottom: 1rem;
     }
   
     .text-container {
       max-width: 100%;
     }
-    .about-pic {
-       align-items:center ;
-      }
-
   }
   
   @media screen and (max-width: 600px) {
@@ -116,6 +91,7 @@
     footer nav {
       height: fit-content;
       margin-bottom: 2rem;
+      margin-top: 4rem;
     }
     .about-containers,
     .contact-info-upper-container,
@@ -150,9 +126,13 @@
     }
     .title {
       font-size: 2rem;
+      margin-top: 20px;
     }
     .text-container {
       text-align: justify;
+    }
+    .section__text__p1{
+      margin-top: 150px;
     }
   }
   
